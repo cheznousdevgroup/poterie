@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Modèle Ogani" />
+    <meta name="keywords" content="Ogani, unica, créatif, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>KROK | Accueil</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Préloder de page -->
+    <div id="preloder">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Menu Hamburger -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+      <div class="humberger__menu__logo">
+        <a href="#"><img src="img/kroklogo.png" alt="" /></a>
+      </div>
+      <div class="humberger__menu__cart">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a>
+          </li>
+        </ul>
+        <div class="header__cart__price">article: <span>150.00 FCFA</span></div>
+      </div>
+      <div class="humberger__menu__widget">
+        <div class="header__top__right__language">
+          <img src="img/francelangue.png" alt="" />
+          <div>Français</div>
+          <span class="arrow_carrot-down"></span>
+          <ul>
+            <li><a href="#">Anglais</a></li>
+            <li><a href="#">Français</a></li>
+          </ul>
+        </div>
+        <div class="header__top__right__auth">
+          <a href="#"><i class="fa fa-user"></i> Connexion</a>
+        </div>
+      </div>
+      <nav class="humberger__menu__nav mobile-menu">
+        <ul>
+          <li class="active"><a href="./index.html">Accueil</a></li>
+          <li><a href="./shop-grid.html">Boutique</a></li>
+          <li>
+            <a href="#">Pages</a>
+            <ul class="header__menu__dropdown">
+              <li><a href="./shop-details.html">Détails de la boutique</a></li>
+              <li><a href="./shoping-cart.html">Panier</a></li>
+              <li><a href="./checkout.html">Paiement</a></li>
+              <li><a href="./blog-details.html">Détails du blog</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div id="mobile-menu-wrap"></div>
+      <div class="header__top__right__social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+      </div>
+      <div class="humberger__menu__contact">
+        <ul>
+          <li>Livraison gratuite pour toutes les commandes de 10.000 FCFA</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Hamburger FIN -->
+
+    <!-- Section Header Début -->
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__left">
+                <ul>
+                  <li>
+                    Livraison gratuite pour toutes les commandes de 10.000 FCFA
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__right">
+                <div class="header__top__right__social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                </div>
+                <div class="header__top__right__language">
+                  <img src="img/francelangue.png" alt="" />
+                  <div>Français</div>
+                  <span class="arrow_carrot-down"></span>
+                  <ul>
+                    <li><a href="#">Anglais</a></li>
+                    <li><a href="#">Français</a></li>
+                  </ul>
+                </div>
+                <div class="header__top__right__auth">
+                  <a href="#"><i class="fa fa-user"></i> Connexion</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="header__logo">
+              <a href="./index.html"
+                ><img src="img/kroklogo.png" width="110px" height="80px" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <nav class="header__menu">
+              <ul>
+                <li class="active"><a href="./index.html">Accueil</a></li>
+                <li><a href="./shop-grid.html">Boutique</a></li>
+                <li>
+                  <a href="#">Pages</a>
+                  <ul class="header__menu__dropdown">
+                    <li>
+                      <a href="./shop-details.html">Détails de la boutique</a>
+                    </li>
+                    <li><a href="./shoping-cart.html">Panier</a></li>
+                    <li><a href="./checkout.html">Paiement</a></li>
+                    <li><a href="./blog-details.html">Détails du blog</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-3">
+            <div class="header__cart">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-shopping-bag"></i> <span>3</span></a
+                  >
+                </li>
+              </ul>
+              <div class="header__cart__price">
+                article: <span>150.00 FCFA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="humberger__open">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Section Header FIN -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero hero-normal">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="hero__categories">
+              <div class="hero__categories__all">
+                <i class="fa fa-bars"></i>
+                <span>Tous les départements</span>
+              </div>
+              <ul>
+                <li><a href="#">Chips de taro</a></li>
+                <li><a href="#">Chips de pommes de terre</a></li>
+                <li><a href="#">Chips de patates douces</a></li>
+                <li><a href="#">Chips de banane plantain</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="hero__search">
+              <div class="hero__search__form">
+                <form action="#">
+                  <div class="hero__search__categories">
+                    Toutes les catégories
+                    <span class="arrow_carrot-down"></span>
+                  </div>
+                  <input type="text" placeholder="De quoi avez-vous besoin?" />
+                  <button type="submit" class="site-btn">RECHERCHER</button>
+                </form>
+              </div>
+              <div class="hero__search__phone">
+                <div class="hero__search__phone__icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="hero__search__phone__text">
+                  <h5>+225 07-11-34-96-00</h5>
+                  <span>support 24/7</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <section
+      class="breadcrumb-section set-bg"
+      data-setbg="img/chips.png"
+    ></section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Product Details Section Begin -->
+    <section class="product-details spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="product__details__pic">
+              <div class="product__details__pic__item">
+                <img
+                  class="product__details__pic__item--large"
+                  src="img/product/details/product-details-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="product__details__pic__slider owl-carousel">
+                <img
+                  data-imgbigurl="img/product/details/product-details-2.jpg"
+                  src="img/product/details/thumb-1.jpg"
+                  alt=""
+                />
+                <img
+                  data-imgbigurl="img/product/details/product-details-3.jpg"
+                  src="img/product/details/thumb-2.jpg"
+                  alt=""
+                />
+                <img
+                  data-imgbigurl="img/product/details/product-details-5.jpg"
+                  src="img/product/details/thumb-3.jpg"
+                  alt=""
+                />
+                <img
+                  data-imgbigurl="img/product/details/product-details-4.jpg"
+                  src="img/product/details/thumb-4.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="product__details__text">
+              <h3>Forfait Légumes</h3>
+              <div class="product__details__rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <span>(18 avis)</span>
+              </div>
+              <div class="product__details__price">250,00 FCFA</div>
+              <p>
+                Mais, farine de blé, huile végétale, Arome en poudre, whey
+                poudre, lait en poudre, sel, paprika fabrique en côte d'ivore
+              </p>
+              <div class="product__details__quantity">
+                <div class="quantity">
+                  <div class="pro-qty">
+                    <input type="text" value="1" />
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="primary-btn">AJOUTER AU PANIER</a>
+              <a href="#" class="heart-icon"
+                ><span class="icon_heart_alt"></span
+              ></a>
+              <ul>
+                <li><b>Disponibilité</b> <span>En Stock</span></li>
+                <li>
+                  <b>Livraison</b>
+                  <span
+                    >Livraison en 1 jour.
+                    <samp>Retrait gratuit aujourd'hui</samp></span
+                  >
+                </li>
+                <li><b>Poids</b> <span>0,5 kg</span></li>
+                <li>
+                  <b>Partager sur</b>
+                  <div class="share">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="product__details__tab">
+              <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    data-toggle="tab"
+                    href="#tabs-1"
+                    role="tab"
+                    aria-selected="true"
+                    >Description</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    data-toggle="tab"
+                    href="#tabs-2"
+                    role="tab"
+                    aria-selected="false"
+                    >Information</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    data-toggle="tab"
+                    href="#tabs-3"
+                    role="tab"
+                    aria-selected="false"
+                    >Avis <span>(1)</span></a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                  <div class="product__details__tab__desc">
+                    <h6>Informations sur les Produits</h6>
+                    <p>
+                      Il y a une saveur préférée pour tout le monde avec le pack
+                      de variétés aromatisées Pringles Potato Chips Chips.
+                      Rendez l'heure de la collation plus amusante avec le
+                      croquant classique des croustilles de pommes de terre
+                      Pringles Snack Stacks, aromatisées d'un bord à l'autre en
+                      trois saveurs appétissantes, notamment l'original, le
+                      fromage cheddar et la crème sure et l'oignon. Avec leur
+                      goût délicieux et leur forme empilable originale, les
+                      chips de pommes de terre Pringles inspirent toujours de
+                      bons moments entre amis, et les gobelets pratiques et
+                      portables vous donnent la liberté de grignoter quand et où
+                      vous voulez. Prenez une tasse pour le bureau, préparez une
+                      collation pour l'école, emportez-les dans la voiture ou
+                      partagez-en une pile avec des amis. Quelle que soit la
+                      façon dont vous les mangez, vous adorerez la forme
+                      amusante et le goût délicieux de Pringles Potato Chips
+                      Variety Pack.
+                    </p>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tabs-2" role="tabpanel">
+                  <div class="product__details__tab__desc">
+                    <h6>Informations sur les Produits</h6>
+                    <p>
+                      Il y a une saveur préférée pour tout le monde avec le pack
+                      de variétés aromatisées Pringles Potato Chips Chips.
+                      Rendez l'heure de la collation plus amusante avec le
+                      croquant classique des croustilles de pommes de terre
+                      Pringles Snack Stacks, aromatisées d'un bord à l'autre en
+                      trois saveurs appétissantes, notamment l'original, le
+                      fromage cheddar et la crème sure et l'oignon. Avec leur
+                      goût délicieux et leur forme empilable originale, les
+                      chips de pommes de terre Pringles inspirent toujours de
+                      bons moments entre amis, et les gobelets pratiques et
+                      portables vous donnent la liberté de grignoter quand et où
+                      vous voulez. Prenez une tasse pour le bureau, préparez une
+                      collation pour l'école, emportez-les dans la voiture ou
+                      partagez-en une pile avec des amis. Quelle que soit la
+                      façon dont vous les mangez, vous adorerez la forme
+                      amusante et le goût délicieux de Pringles Potato Chips
+                      Variety Pack.
+                    </p>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tabs-3" role="tabpanel">
+                  <div class="product__details__tab__desc">
+                    <h6>Informations sur les Produits</h6>
+                    <p>
+                      Il y a une saveur préférée pour tout le monde avec le pack
+                      de variétés aromatisées Pringles Potato Chips Chips.
+                      Rendez l'heure de la collation plus amusante avec le
+                      croquant classique des croustilles de pommes de terre
+                      Pringles Snack Stacks, aromatisées d'un bord à l'autre en
+                      trois saveurs appétissantes, notamment l'original, le
+                      fromage cheddar et la crème sure et l'oignon. Avec leur
+                      goût délicieux et leur forme empilable originale, les
+                      chips de pommes de terre Pringles inspirent toujours de
+                      bons moments entre amis, et les gobelets pratiques et
+                      portables vous donnent la liberté de grignoter quand et où
+                      vous voulez. Prenez une tasse pour le bureau, préparez une
+                      collation pour l'école, emportez-les dans la voiture ou
+                      partagez-en une pile avec des amis. Quelle que soit la
+                      façon dont vous les mangez, vous adorerez la forme
+                      amusante et le goût délicieux de Pringles Potato Chips
+                      Variety Pack.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section des Détails du Produit Fin -->
+
+    <!-- Section Produit Associé Début -->
+    <section class="related-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title related__product__title">
+              <h2>Produit Associé</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="product__item">
+              <div
+                class="product__item__pic set-bg"
+                data-setbg="img/product/product-1.jpg"
+              >
+                <ul class="product__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="product__item__text">
+                <h6><a href="#">chips</a></h6>
+                <h5>130.00 FCFA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="product__item">
+              <div
+                class="product__item__pic set-bg"
+                data-setbg="img/product/product-2.jpg"
+              >
+                <ul class="product__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="product__item__text">
+                <h6><a href="#">chips</a></h6>
+                <h5>130.00 FCFA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="product__item">
+              <div
+                class="product__item__pic set-bg"
+                data-setbg="img/product/product-3.jpg"
+              >
+                <ul class="product__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="product__item__text">
+                <h6><a href="#">chips</a></h6>
+                <h5>130.00 FCFA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="product__item">
+              <div
+                class="product__item__pic set-bg"
+                data-setbg="img/product/product-7.jpg"
+              >
+                <ul class="product__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="product__item__text">
+                <h6><a href="#">chips</a></h6>
+                <h5>130.00 FCFA</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Produit Associé Fin -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="footer__about">
+              <div class="footer__about__logo">
+                <a href="./index.html"
+                  ><img
+                    src="img/kroklogo.png"
+                    width="110px"
+                    height="80px"
+                    alt=""
+                /></a>
+              </div>
+              <ul>
+                <li>Téléphone: +225 07-11-34-96-00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+            <div class="footer__widget">
+              <h6>Liens Utiles</h6>
+              <ul>
+                <li><a href="#">Politique de Confidentialité</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Qui Nous Sommes</a></li>
+                <li><a href="#">Nos Services</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="footer__widget">
+              <h6>Abonnez-vous à notre Newsletter</h6>
+              <p>
+                Recevez par e-mail nos dernières nouveautés et offres spéciales.
+              </p>
+              <form action="#">
+                <input type="text" placeholder="Entrez votre adresse e-mail" />
+                <button type="submit" class="site-btn">S'abonner</button>
+              </form>
+              <div class="footer__widget__social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footer__copy">
+              <div class="footer__copy__text">
+                <p>
+                  Droit d'auteur &copy;
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  Tous droits réservés | Ce modèle est créé avec
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  par
+                  <a href="https://devoo.site" target="_blank">Devoo Group</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

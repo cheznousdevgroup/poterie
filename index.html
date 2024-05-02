@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Modèle Ogani" />
+    <meta name="keywords" content="Ogani, unica, créatif, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>KROK | Accueil</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Préloder de page -->
+    <div id="preloder">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Menu Hamburger -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+      <div class="humberger__menu__logo">
+        <a href="#"><img src="img/kroklogo.png" alt="" /></a>
+      </div>
+      <div class="humberger__menu__cart">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a>
+          </li>
+        </ul>
+        <div class="header__cart__price">article: <span>150.00 FCFA</span></div>
+      </div>
+      <div class="humberger__menu__widget">
+        <div class="header__top__right__language">
+          <img src="img/francelangue.png" alt="" />
+          <div>Français</div>
+          <span class="arrow_carrot-down"></span>
+          <ul>
+            <li><a href="#">Anglais</a></li>
+            <li><a href="#">Français</a></li>
+          </ul>
+        </div>
+        <div class="header__top__right__auth">
+          <a href="#"><i class="fa fa-user"></i> Connexion</a>
+        </div>
+      </div>
+      <nav class="humberger__menu__nav mobile-menu">
+        <ul>
+          <li class="active"><a href="./index.html">Accueil</a></li>
+          <li><a href="./shop-grid.html">Boutique</a></li>
+          <li>
+            <a href="#">Pages</a>
+            <ul class="header__menu__dropdown">
+              <li><a href="./shop-details.html">Détails de la boutique</a></li>
+              <li><a href="./shoping-cart.html">Panier</a></li>
+              <li><a href="./checkout.html">Paiement</a></li>
+              <li><a href="./blog-details.html">Détails du blog</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div id="mobile-menu-wrap"></div>
+      <div class="header__top__right__social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+      </div>
+      <div class="humberger__menu__contact">
+        <ul>
+          <li>Livraison gratuite pour toutes les commandes de 10.000 FCFA</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Hamburger FIN -->
+
+    <!-- Section Header Début -->
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__left">
+                <ul>
+                  <li>
+                    Livraison gratuite pour toutes les commandes de 10.000 FCFA
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__right">
+                <div class="header__top__right__social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                </div>
+                <div class="header__top__right__language">
+                  <img src="img/francelangue.png" alt="" />
+                  <div>Français</div>
+                  <span class="arrow_carrot-down"></span>
+                  <ul>
+                    <li><a href="#">Anglais</a></li>
+                    <li><a href="#">Français</a></li>
+                  </ul>
+                </div>
+                <div class="header__top__right__auth">
+                  <a href="#"><i class="fa fa-user"></i> Connexion</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="header__logo">
+              <a href="./index.html"
+                ><img src="img/kroklogo.png" width="110px" height="80px" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <nav class="header__menu">
+              <ul>
+                <li class="active"><a href="./index.html">Accueil</a></li>
+                <li><a href="./shop-grid.html">Boutique</a></li>
+                <li>
+                  <a href="#">Pages</a>
+                  <ul class="header__menu__dropdown">
+                    <li>
+                      <a href="./shop-details.html">Détails de la boutique</a>
+                    </li>
+                    <li><a href="./shoping-cart.html">Panier</a></li>
+                    <li><a href="./checkout.html">Paiement</a></li>
+                    <li><a href="./blog-details.html">Détails du blog</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-3">
+            <div class="header__cart">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-shopping-bag"></i> <span>3</span></a
+                  >
+                </li>
+              </ul>
+              <div class="header__cart__price">
+                article: <span>150.00 FCFA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="humberger__open">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Section Header FIN -->
+
+    <!-- Section Hero Début -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="hero__categories">
+              <div class="hero__categories__all">
+                <i class="fa fa-bars"></i>
+                <span>Tous les départements</span>
+              </div>
+              <ul>
+                <li><a href="#">Chips de pommes de terre</a></li>
+                <li><a href="#">Chips de patates douces</a></li>
+                <li><a href="#">Chips de légumes mélangés</a></li>
+                <li><a href="#">Chips de banane plantain</a></li>
+                <li><a href="#">Chips de taro</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="hero__search">
+              <div class="hero__search__form">
+                <form action="#">
+                  <div class="hero__search__categories">
+                    Toutes les catégories
+                    <span class="arrow_carrot-down"></span>
+                  </div>
+                  <input type="text" placeholder="De quoi avez-vous besoin?" />
+                  <button type="submit" class="site-btn">RECHERCHER</button>
+                </form>
+              </div>
+              <div class="hero__search__phone">
+                <div class="hero__search__phone__icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="hero__search__phone__text">
+                  <h5>+225 07-11-34-96-00</h5>
+                  <span>support 24/7</span>
+                </div>
+              </div>
+            </div>
+            <div class="hero__item set-bg" data-setbg="img/hero/banner.png">
+              <div class="hero__text">
+                <span>KROK CHIPS</span>
+                <h2>Légume <br />100% Bio</h2>
+                <p>Retrait et livraison gratuits disponibles</p>
+                <a href="#" class="primary-btn">ACHETER MAINTENANT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Hero Fin -->
+
+    <!-- Section Catégories Début -->
+    <section class="categories">
+      <div class="container">
+        <div class="row">
+          <div class="categories__slider owl-carousel">
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="img/categories/cat-1.jpg"
+              >
+                <h5><a href="#">Chips de pommes de terre</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="img/categories/cat-2.jpg"
+              >
+                <h5><a href="#">Chips de patates douces</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="img/categories/cat-3.jpg"
+              >
+                <h5><a href="#">Chips de légumes mélangés</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="img/categories/cat-4.jpg"
+              >
+                <h5><a href="#">Chips de banane plantain</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="img/categories/cat-5.jpg"
+              >
+                <h5><a href="#">Chips de taro</a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Catégories Fin -->
+
+    <!-- Section Produits Mis en Avant Début -->
+    <section class="featured spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>Produit Mis en Avant</h2>
+            </div>
+            <div class="featured__controls">
+              <ul>
+                <li class="active" data-filter="*">Tout</li>
+                <li data-filter=".oranges">Chips de taro</li>
+                <li data-filter=".fresh-meat">Chips de pommes de terre</li>
+                <li data-filter=".vegetables">Chips de patates douces</li>
+                <li data-filter=".fastfood">Chips de banane plantain</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row featured__filter">
+          <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-1.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">chips</a></h6>
+                <h5>130.00 FCFA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-2.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">chips</a></h6>
+                <h5>130.00 FCFA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-3.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">chips</a></h6>
+                <h5>130.00 FCFA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-4.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">chips</a></h6>
+                <h5>130.00 FCFA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-5.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">chips</a></h6>
+                <h5>130.00 FCFA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-6.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">chips</a></h6>
+                <h5>130.00 FCFA</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-6.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">chips</a></h6>
+                <h5>130,00 FCFA</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin de la section des éléments en vedette -->
+
+    <!-- Début de la bannière -->
+    <div class="bannière">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="bannière__image">
+              <img src="img/bannière/bannière-1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="bannière__image">
+              <img src="img/bannière/bannière-2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin de la bannière -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="footer__about">
+              <div class="footer__about__logo">
+                <a href="./index.html"
+                  ><img
+                    src="img/kroklogo.png"
+                    width="110px"
+                    height="80px"
+                    alt=""
+                /></a>
+              </div>
+              <ul>
+                <li>Téléphone: +225 07-11-34-96-00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+            <div class="footer__widget">
+              <h6>Liens Utiles</h6>
+              <ul>
+                <li><a href="#">Politique de Confidentialité</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Qui Nous Sommes</a></li>
+                <li><a href="#">Nos Services</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="footer__widget">
+              <h6>Abonnez-vous à notre Newsletter</h6>
+              <p>
+                Recevez par e-mail nos dernières nouveautés et offres spéciales.
+              </p>
+              <form action="#">
+                <input type="text" placeholder="Entrez votre adresse e-mail" />
+                <button type="submit" class="site-btn">S'abonner</button>
+              </form>
+              <div class="footer__widget__social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footer__copy">
+              <div class="footer__copy__text">
+                <p>
+                  Droit d'auteur &copy;
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  Tous droits réservés | Ce modèle est créé avec
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  par
+                  <a href="https://devoo.site" target="_blank">Devoo Group</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
