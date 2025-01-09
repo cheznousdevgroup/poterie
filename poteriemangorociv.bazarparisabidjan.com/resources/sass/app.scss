@@ -1,0 +1,21 @@
+// resources/sass/app.scss
+
+@import 'variable';  // Importer les variables en premier
+@import 'mixins';
+@import 'base';
+@import 'blog';
+@import 'blog-details';
+@import 'blog-sidebar';
+@import 'breadcrumb';
+@import 'checkout';
+@import 'contact';
+@import 'footer';
+@import 'header';
+@import 'hero';
+@import 'home-page';
+@import 'responsive';
+@import 'shop-details';
+@import 'shop-grid';
+@import 'shoping-cart';
+@import 'sidebar';
+@import 'style';  // Importer le style principal à la fin
